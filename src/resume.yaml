@@ -135,3 +135,16 @@ about:
 - 了解 HTTP 相关知识，了解常见的 Web 性能优化方案。
 - 熟练使用 VsCode、WebStorm、Sass、Git 等开发工具。
 - 熟悉HTTP协议及浏览器渲染原理
+link:
+  - name: github
+    description: 访问Github
+    link: https//:github.comG
+  - name: blog
+    description: 个人博客
+    link: https//:github.com
+  - name: zhihu
+    description: 浏览知乎首页
+    link: https//:github.com
+  - name: juejin
+    description: 浏览掘金首页
+    link: https//:github.com

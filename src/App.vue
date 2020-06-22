@@ -8,6 +8,7 @@
         <ResumeBaseInfo :data="userData.baseInfo"/>
         <ResumeSkill :list="userData.skills"/>
         <ResumeContact :list="userData.contact"/>
+        <ResumeLink :list="userData.link"/>
       </div>
       <div class="content">
         <ResumeExperience :list="userData.experience"/>
@@ -26,6 +27,7 @@ import ResumeContact from './components/ResumeContact.vue'
 import ResumeExperience from './components/ResumeExperience.vue'
 import ResumeProject from './components/ResumeProject.vue'
 import ResumeAbout from './components/ResumeAbout.vue'
+import ResumeLink from './components/ResumeLink.vue'
 import userData from './resume.yaml'
 
 export default {
@@ -37,7 +39,8 @@ export default {
     ResumeContact,
     ResumeExperience,
     ResumeProject,
-    ResumeAbout
+    ResumeAbout,
+    ResumeLink
   },
   data() {
     return {

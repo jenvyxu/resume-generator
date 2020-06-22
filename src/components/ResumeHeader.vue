@@ -48,6 +48,7 @@ export default {
     width: 180px;
     height: 180px;
     border-radius: 50%;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .4);
   }
   .description {
     font-weight: normal;

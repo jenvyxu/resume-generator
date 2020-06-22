@@ -7,7 +7,6 @@
       :key="index"
       class="resume-project-section">
       <div class="resume-project-title">
-        <div class="company title-item"></div>
         <ResumeInput class="company title-item">{{index + 1}}. {{item.name}}</ResumeInput>
         <ResumeInput class="time title-item">{{item.time}}</ResumeInput>
         <ResumeInput class="position title-item">{{item.position}}</ResumeInput>
@@ -67,16 +66,19 @@ export default {
 }
 .resume-project-title {
   display: flex;
+  vertical-align: baseline;
   color: #2397df;
   font-weight: bold;
+  .title-item {
+    line-height: 20px;
+  }
 }
 .resume-project-section {
   margin-bottom: 20px;
 }
 .resume-project-logo {
-  width: 640px;
+  width: 100%;
   margin: 6px 5px;
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
 }
 .word {
   font-weight: normal;
