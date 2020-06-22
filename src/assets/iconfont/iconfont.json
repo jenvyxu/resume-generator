@@ -6,6 +6,48 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "644876",
+      "name": "sina",
+      "font_class": "sina",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "4565635",
+      "name": "jianshu",
+      "font_class": "jianshu",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "7239592",
+      "name": "zhihu-circle",
+      "font_class": "zhihu",
+      "unicode": "e712",
+      "unicode_decimal": 59154
+    },
+    {
+      "icon_id": "8510023",
+      "name": "blog",
+      "font_class": "blog",
+      "unicode": "e694",
+      "unicode_decimal": 59028
+    },
+    {
+      "icon_id": "10793054",
+      "name": "github",
+      "font_class": "github",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "15281837",
+      "name": "juejin-logo",
+      "font_class": "juejin",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
       "icon_id": "401005",
       "name": "phone",
       "font_class": "phone",
