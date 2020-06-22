@@ -1,0 +1,29 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1592469691564'); /* IE9 */
+  src: url('iconfont.eot?t=1592469691564#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAP8AAsAAAAACDgAAAOuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDHAqDfIM7ATYCJAMQCwoABCAFhG0HQBslB1FULiJkXxTGxszoh7sm8iL3yt20+mKj/mj2hZ2gwTaCaA2dvbuHECpQgAotq6iwigIuGdkqdr7C1FXWs6swv95uWjX3Uq70275rhlC1LCUhEhq/fm0nSiWUDQmLJNOk/c+/d2LLLAsME3LtASZqgumNa9dUSb+I9D+X02uJz29ZLnMNPOpFcTSBAh1rUECBFkgBYswNY1ctxUHtJtBrRuAOdpe7kyjwoEC8qArjJBm10pAbWqGumFnEB5U2vUvf8D54f/yzFglJleGRR3fbzFn87Jec2qW6FAjOdEao88hYBQrxUGm+4kfhVV6v/Z3AFtBqJX7281+6DnKPIm7JXx5ZEkQNZ/eDDSTKF8Zh7EQypJH4hfsA2QW0g6Nf8F3TTMEjQqNcczBQKBIaDYSDZ8BELF7KTV9rLF9ztNxoblwbbF5Sru6srt6sam54269jCvivr60vLy2vrqwsbaa20F30Zo6bGxvrrr7U3vz+tAFBy26RV9DX1MsX16m0Z0fQyvrkhte9UUS3qlDo+DcAfXyqaYRKSlwazdOrBhhfCYBUUX3cLCvzadaeVWhiAX0CXsxvkLZmZ3D8bWDHxjDgf6c2jcaKxDfZg91KOBycnR04StzAXU3x7TmjTYAJPoI0S9Bu4VtgLehgIGcATA5j9SR4g5PVofvcgP8VDTB2oD0dtOomFSMUI/wr9Kv156DlryQcQ48xlSrjBgePVSaCMkADleBgwhCM6GOldttuciz2Mfp+mEoJnB6b3qlUJFskZVs5EaDTnw/lkvKV4lIOFYDxK0NVVChQVXNFfpgoBKIkcjIjXCxxlnwtNTVtqC9UG/AGdK3gTjBf0P8l/2duAPIjaO4P99L1pjq64NV+EOgnrPsxYryAXF2rZzGM85s4nTn/k9OxrDg8rCnF4jO2m1mci3k9Sr1Ex1+MM+pNYZ0AiTG0GgdC0piGrDWLKYRVqPTZgFprG3qtyPP7jOl8UXqwbAEIwzYkg75CNuxgCuFCZdKH2nD40Osihiv2mY9qsBYYRUbyp2q5z6lOB2HuFcWnNZLmBcQn5F35iEaTfGyPHjLFmPEtZlNzUuGOGOyHtmVqwjWsjkz1NcdxXvWgUeHOGdgnwFCQIeKPVBbr5aK2GhRefwWFj5YhDag2/ROIt6pzQqLUAbMX951Qt3LP8FWYmVSOKME6hIERWhJmpFV3q4GlRmxA8GUOUSXtKh4tL+3ecBv0wpeWSJGjRKV6U3KP6AdbGg3Rmap1HAAA') format('woff2'),
+  url('iconfont.woff?t=1592469691564') format('woff'),
+  url('iconfont.ttf?t=1592469691564') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1592469691564#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone:before {
+  content: "\e7f4";
+}
+
+.icon-wechat:before {
+  content: "\e68b";
+}
+
+.icon-email:before {
+  content: "\e648";
+}
+

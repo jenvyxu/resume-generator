@@ -1,28 +1,72 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <ResumeHeader
+      :name="userData.name"
+      :employment="userData.employment"/>
+    <main class="main">
+      <div class="sider-bar">
+        <ResumeBaseInfo :data="userData.baseInfo"/>
+        <ResumeSkill :list="userData.skills"/>
+        <ResumeContact :list="userData.contact"/>
+      </div>
+      <div class="content">
+        <ResumeExperience :list="userData.experience"/>
+        <ResumeProject :list="userData.project"/>
+        <ResumeAbout :list="userData.about"/>
+      </div>
+    </main>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ResumeHeader from './components/ResumeHeader.vue'
+import ResumeBaseInfo from './components/ResumeBaseInfo.vue'
+import ResumeSkill from './components/ResumeSkill.vue'
+import ResumeContact from './components/ResumeContact.vue'
+import ResumeExperience from './components/ResumeExperience.vue'
+import ResumeProject from './components/ResumeProject.vue'
+import ResumeAbout from './components/ResumeAbout.vue'
+import userData from './resume.yaml'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ResumeHeader,
+    ResumeBaseInfo,
+    ResumeSkill,
+    ResumeContact,
+    ResumeExperience,
+    ResumeProject,
+    ResumeAbout
+  },
+  data() {
+    return {
+      fontSize: 30,
+      userData
+    }
+  },
+  created() {
+
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  width: 960px;
+  margin: 0 auto;  
+  background-color: #fff;
+  color: #666;
+}
+.main {
+  display: flex;
+}
+.sider-bar {
+  width: 280px;
+  padding: 120px 15px 16px 45px;
+  border-right: 2px solid #ccc;
+}
+.content {
+  width: 100%;
 }
 </style>

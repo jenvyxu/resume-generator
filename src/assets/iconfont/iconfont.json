@@ -1,0 +1,30 @@
+{
+  "id": "1893493",
+  "name": "resume2020",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "401005",
+      "name": "phone",
+      "font_class": "phone",
+      "unicode": "e7f4",
+      "unicode_decimal": 59380
+    },
+    {
+      "icon_id": "560667",
+      "name": "wechat",
+      "font_class": "wechat",
+      "unicode": "e68b",
+      "unicode_decimal": 59019
+    },
+    {
+      "icon_id": "809949",
+      "name": "email",
+      "font_class": "email",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    }
+  ]
+}

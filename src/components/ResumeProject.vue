@@ -1,0 +1,102 @@
+<template>
+  <resume-section
+    :title="'项目经历'"
+    class="resume-project">
+    <div
+      v-for="(item, index) in list"
+      :key="index"
+      class="resume-project-section">
+      <div class="resume-project-title">
+        <div class="company title-item"></div>
+        <ResumeInput class="company title-item">{{index + 1}}. {{item.name}}</ResumeInput>
+        <ResumeInput class="time title-item">{{item.time}}</ResumeInput>
+        <ResumeInput class="position title-item">{{item.position}}</ResumeInput>
+      </div>
+      <img class="resume-project-logo" :src="require(`img@/${item.logo}`)" alt="">
+      <ResumeInput
+        v-for="(content, index) in item.description"
+        :key="index"
+        v-html="hightKeyword(content)"
+        class="resume-project-description"/>
+      <ResumeInput 
+        v-html="hightKeyword(item.responsibility)"
+        class="resume-project-description"/>
+      <p class="word-container">技术栈:
+        <span 
+          v-for="(word, index) in item.keyword"
+          :key="index"
+          class="word">{{word}}</span></p>
+      <div class="link">
+        <a v-if="item.link" :href="item.link" target="_blank">在线预览</a>
+        <a v-if="item.repo" :href="item.repo" target="_blank">项目源码</a>        
+      </div>
+    </div>
+  </resume-section>
+</template>
+
+<script>
+import ResumeSection from './ResumeSection.vue'
+import ResumeInput from './ResumeInput.vue'
+import heightLight from './mixins'
+
+export default {
+  name: 'resume-project',
+  components: {
+    ResumeSection,
+    ResumeInput
+  },
+  mixins: [heightLight],
+  props: {
+    list: {
+      type: Array,
+      default: () => []
+    }
+  },
+  mounted() {
+
+  }
+}
+</script>
+
+<style lang="scss">
+.resume-project {
+  margin: 30px 40px 30px 30px;
+  .resume-editor {
+    margin: 0 20px 0 0;
+  }
+}
+.resume-project-title {
+  display: flex;
+  color: #2397df;
+  font-weight: bold;
+}
+.resume-project-section {
+  margin-bottom: 20px;
+}
+.resume-project-logo {
+  width: 640px;
+  margin: 6px 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+.word {
+  font-weight: normal;
+  color: #ff5700;
+  &::after{
+    content: '/';
+    display: inline;
+    margin: 0 4px;
+    font-weight: normal;
+    color: #666;
+  }
+}
+.link {
+  a {
+    margin-right: 10px;
+  }
+}
+.word-container {
+  font-weight: bold;
+  margin: 4px 0;
+}
+
+</style>
