@@ -1,9 +1,7 @@
-# 使用<<>>标注需要加粗的文字
-# 使用(())标注需要高亮的文字
 # 简历头部信息
-name: 许振威
-employment: 应聘前端开发 | 1年经验
-avatar: avatar.png
+name: 吴彦祖
+employment: 3年经验 | 应聘前端开发
+avatar: http
 # 基本信息
 baseInfo: 
 - key: gender
@@ -11,78 +9,75 @@ baseInfo:
   value: 男
 - key: age
   name: 年龄
-  value: 28
+  value: 24
 - key: address
   name: 地址
   value: 广州
 - key: college
   name: 院校
-  value: 大连海事大学
+  value: 中国xxx大学
 - key: education
   name: 学历
   value: 本科(2011-2015)
 - key: major
   name: 专业
   value: 通信工程
-# 相关技能
+# 相关技能, 关键词用(())包裹起来
 skills:
   - ((熟悉))CSS3/HTML5/Grid/Flex
-  - ((熟悉))JavaScript/ES6
+  - ((熟悉))JavaScript/TypeScript/ES6
   - ((熟悉))Vue/Vuex/Vue Router/Axios
-  - ((熟悉))移动端开发
-  - ((熟悉))ElementUI
-  - ((熟悉))Webpack配置
+  - ((了解))React/Redux/ReactRouter
+  - ((熟悉))微信小程序/移动端开发
+  - ((熟悉))Bootstrap/ElementUI/Antd
+  - ((熟悉))Webpack/Parcel/Npm/Yarn
   - ((熟悉))Sass/Less/Babel
+  - ((熟悉))CSS3/HTML5/Grid/Flex
 contact: 
   - name: phone
-    value: 18316304477
+    value: 12345678900
   - name: wechat
-    value: xuzhenwei111
+    value: jenyvxu2000
   - name: email
-    value: 1272117264@qq.com
+    value: 12345678@qq.com
 experience:
-  - company: 天圣网络科技有限公司
-    time: 2016/08 - 2018/03
-    position: 硬件工程师
-    description: 负责产品研发和硬件技术选型
-  - company: 美云智数科技有限公司
-    time: 2019/11 - 2020/05
+  - company: xxx科技有限公司
+    time: 2020/01 - 2020/06
     position: 前端开发工程师
-    description: 负责公司saas应用的前端开发工作，主要负责协作圈版本功能迭代
+    description: 但是不知如何使用这个在线链接，尝试过在main.js中import这个链接，也试过在index.html中以原始的方式
+  - company: xxx科技有限公司
+    time: 2020/01 - 2020/06
+    position: 前端开发工程师
+    description: 但是不知如何使用这个在线链接，尝试过在main.js中import这个链接，也试过在index.html中以原始的方式
+  - company: xxx科技有限公司
+    time: 2020/01 - 2020/06
+    position: 前端开发工程师
+    description: 但是不知如何使用这个在线链接，尝试过在main.js中import这个链接，也试过在index.html中以原始的方式
 project: 
-  - name: 协作圈web端
+  - name: xxx项目
     logo: shoot1.png
-    time: 2019/11 - 2020/05
+    time: 2020/01 - 2020/07
     keyword: 
-      - vue
-      - element-ui
-      - less
+      - javascript
+      - html
+      - webpack
+      - Vue
+      - Sass
+      - Es6
+      - Element
     description: 
-      - ((项目描述:))协作圈使用vue-cli + element-ui搭建项目、使用vue-router实现路由跳转，使用vuex实现组件间数据通信，使用i18n实现中英切换，是使用模块化的思想，把项目划分成几大模块/n
-        使用axios实现前后端http通信，
-    responsibility: 项目使用((vue + element ui))技术栈
-    link: 
-    repo: 
-  - name: 协作圈后台管理系统
-    logo: shoot1.png
-    time: 2019/11 - 2020/05
-    keyword: 
-      - vue
-      - element-ui
-      - less
-    description: 
-      - ((项目描述:))协作圈使用vue-cli + element-ui搭建项目、使用vue-router实现路由跳转，使用vuex实现组件间数据通信，使用i18n实现中英切换，是使用模块化的思想，把项目划分成几大模块/n
-        使用axios实现前后端http通信，
-    responsibility: 项目使用((vue + element ui))技术栈
-    link: 
-    repo: 
-  - name: 盈丰移动端资讯
+      - ((工作内容:)) 但是不知如何使用这个在线链接，尝试过在main.js中import这个链接，也试过在index.html中以原始的方式
+      - ((主要职责:)) 但是不知如何使用这个在线链接，尝试过在main.js中import这个链接，也试过在index.html中以原始的方式
+    responsibility: ((在该))项目中我主要负责通讯录，流程中心，费控门户等前后台页面的开发及优化工作。同时跟进项目上线后的((问题及修复))
+    link: https://segmentfault.com/a/1190000022785144
+    repo: https://www.npmjs.com/package/yaml-loader
+  - name: xxx项目
     logo: shoot2.png
-    time: 2019/11 - 2020/05
+    time: 2020/01 - 2020/07
     keyword: 
-      - vue-cli
-      - element-ui
-      - less
+      - javascript
+      - html
+      - webpack
       - Vue
       - Sass
       - Es6
@@ -91,23 +86,27 @@ project:
       - <<工作内容:>> 但是不知如何使用这个在线链接，尝试过在main.js中import这个链接，也试过在index.html中以原始的方式
       - <<主要职责:>> 但是不知如何使用这个在线链接，尝试过在main.js中import这个链接，也试过在index.html中以原始的方式
     responsibility: ((在该))项目中我主要负责通讯录，流程中心，费控门户等前后台页面的开发及优化工作。同时跟进项目上线后的((问题及修复))
-    link: 
-    repo: 
-  - name: 在线便签
-    logo: shoot3.png
+    link: https://segmentfault.com/a/1190000022785144
+    repo: https://www.npmjs.com/package/yaml-loader
+  - name: xxx项目
+    logo: shoot2.png
     time: 2020/01 - 2020/07
     keyword: 
-      - express
-      - less
+      - javascript
+      - html
       - webpack
+      - Vue
+      - Sass
+      - Es6
+      - Element
     description: 
       - <<工作内容:>> 但是不知如何使用这个在线链接，尝试过在main.js中import这个链接，也试过在index.html中以原始的方式
       - <<主要职责:>> 但是不知如何使用这个在线链接，尝试过在main.js中import这个链接，也试过在index.html中以原始的方式
     responsibility: ((在该))项目中我主要负责通讯录，流程中心，费控门户等前后台页面的开发及优化工作。同时跟进项目上线后的((问题及修复))
     link: https://segmentfault.com/a/1190000022785144
     repo: https://www.npmjs.com/package/yaml-loader
-  - name: canvas画板
-    logo: shoot4.png
+  - name: xxx项目
+    logo: shoot3.png
     time: 2020/01 - 2020/07
     keyword: 
       - javascript

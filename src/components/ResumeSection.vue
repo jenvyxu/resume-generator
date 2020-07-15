@@ -30,7 +30,7 @@ export default {
 
 <style scoped lang="scss">
 .title {
-  margin-bottom: 20px;
+  margin-bottom: 12px;
   color: #2397df;
 }
 .division {

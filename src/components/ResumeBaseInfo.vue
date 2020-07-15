@@ -41,15 +41,26 @@ export default {
 </script>
 
 <style scope lang="scss">
+.information-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
 .base-information{
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
 .info-name {
   font-weight: bold;
+  margin: 0;
+  word-break: keep-all;
+}
+.info-value {
+  margin: 0;
+  word-break: break-all;
 }
 .split {
-  margin: 0 10px 0 5px
+  margin: 0 6px 0 2px
 }
 
 </style>

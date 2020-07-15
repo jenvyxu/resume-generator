@@ -1,8 +1,8 @@
 <template>
   <div class="resume-header">
-    <img :src="require('img@/avatar.png')" alt="" class="avatar">
+    <img :src="require(`img@/${avatar}`)" alt="" class="avatar">
     <ResumeInput
-      :font-size="32"
+      :font-size="40"
       class="name">{{name}}</ResumeInput>
     <ResumeInput
       :font-size="18"
@@ -21,17 +21,22 @@ export default {
   props: {
     name: {
       type: String,
-      defualt: '吴彦祖'
+      defualt: 'YOUR NAME'
     },
     employment: {
       type: String,
       default: 'n年经验 | 应聘前端开发'
+    },
+    avatar: {
+      type: String,
+      default: 'avatar.png'
     }
   }
 }
 </script>
 
 <style scoped lang="scss">
+
 .resume-header {
   position: relative;
   display: flex;
@@ -42,6 +47,10 @@ export default {
   background-color: #333;
   text-align: center;
   .avatar {
+    background-image: url('../assets/image/avatar.jpg');
+    background-position: center center;
+    background-size: contai;
+    background-repeat: no-repeat;
     position: absolute;
     top: 32%;
     left: 5%;

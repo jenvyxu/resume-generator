@@ -2,7 +2,8 @@
   <div id="app">
     <ResumeHeader
       :name="userData.name"
-      :employment="userData.employment"/>
+      :employment="userData.employment"
+      :avatar="userData.avatar"/>
     <main class="main">
       <div class="sider-bar">
         <ResumeBaseInfo :data="userData.baseInfo"/>
@@ -31,7 +32,7 @@ import ResumeLink from './components/ResumeLink.vue'
 import userData from './resume.yaml'
 
 export default {
-  name: 'App',
+  name: 'app',
   components: {
     ResumeHeader,
     ResumeBaseInfo,
@@ -44,7 +45,6 @@ export default {
   },
   data() {
     return {
-      fontSize: 30,
       userData
     }
   },
