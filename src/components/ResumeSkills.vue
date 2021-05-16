@@ -1,6 +1,6 @@
 <template>
   <resume-section
-    :title="'关于我'"
+    title="专业技能"
     class="resume-about">
     <ul>
       <li 
@@ -16,7 +16,7 @@ import ResumeSection from './ResumeSection.vue'
 import heightLight from './mixins'
 
 export default {
-  name: 'resume-about',
+  name: 'resume-skills',
   components: {
     ResumeSection
   },

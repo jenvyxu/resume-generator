@@ -31,14 +31,16 @@ export default {
 
 <style scoped lang="scss">
 .resume-contact {
-  padding-bottom: 10px;
-  margin-bottom: 30px;
+  padding-bottom: 20px;
 }
 .resume-contact-item {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
+  &:last-child {
+    margin-bottom: 0;
+  }
   .resume-editor {
     margin: 0;
   }

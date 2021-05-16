@@ -48,6 +48,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+
 .resume-skill {
   word-break: break-all;
   padding-bottom: 10px;

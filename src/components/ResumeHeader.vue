@@ -2,10 +2,10 @@
   <div class="resume-header">
     <img :src="require(`img@/${avatar}`)" alt="" class="avatar">
     <ResumeInput
-      :font-size="40"
+      :font-size="32"
       class="name">{{name}}</ResumeInput>
     <ResumeInput
-      :font-size="18"
+      :font-size="16"
       class="description">{{employment}}</ResumeInput>
   </div>
 </template>
@@ -44,7 +44,7 @@ export default {
   justify-content: center;
   padding: 60px 0 40px 0;
   color: #fff;
-  background-color: #333;
+  background-color: #365a77;
   text-align: center;
   .avatar {
     background-image: url('../assets/image/avatar.jpg');

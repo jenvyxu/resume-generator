@@ -1,7 +1,7 @@
 <template>
   <section :class="{'division': division}">
     <ResumeInput class="title"
-    :font-size="24"
+    :font-size="18"
     :color='"#2397df"'>{{title}}</ResumeInput>
     <div class="content">
       <slot></slot>
@@ -31,9 +31,10 @@ export default {
 <style scoped lang="scss">
 .title {
   margin-bottom: 12px;
-  color: #2397df;
+  color: #5c99ca;
 }
 .division {
   border-bottom: 2px solid #ccc;
+  margin-bottom: 20px;
 }
 </style>

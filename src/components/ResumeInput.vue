@@ -1,10 +1,11 @@
 <template>
-  <div
+  <component
     class="resume-editor"
     :contenteditable="editable"
-    :style="styleObj">
+    :style="styleObj"
+    :is="type">
     <slot>请输入文字</slot>
-  </div>
+  </component>
 </template>
 <script>
 export default {
@@ -19,6 +20,13 @@ export default {
     padding: {
       default: '0',
       type: String
+    },
+    type: {
+      type: String,
+      validator: function (value) {
+        return ['div', 'p', 'span', 'h1', 'h2', 'h3', 'h4', 'h5', 'li'].indexOf(value) !== -1
+      },
+      default: 'div'
     }
   },
   computed: {

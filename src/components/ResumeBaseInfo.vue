@@ -48,7 +48,6 @@ export default {
 }
 .base-information{
   padding-bottom: 20px;
-  margin-bottom: 20px;
 }
 .info-name {
   font-weight: bold;

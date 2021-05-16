@@ -7,14 +7,14 @@
     <main class="main">
       <div class="sider-bar">
         <ResumeBaseInfo :data="userData.baseInfo"/>
-        <ResumeSkill :list="userData.skills"/>
+        <!-- <ResumeSkill :list="userData.skills"/> -->
         <ResumeContact :list="userData.contact"/>
         <ResumeLink :list="userData.link"/>
       </div>
       <div class="content">
+        <ResumeSkills :list="userData.about"/>
         <ResumeExperience :list="userData.experience"/>
         <ResumeProject :list="userData.project"/>
-        <ResumeAbout :list="userData.about"/>
       </div>
     </main>
   </div>
@@ -23,11 +23,11 @@
 <script>
 import ResumeHeader from './components/ResumeHeader.vue'
 import ResumeBaseInfo from './components/ResumeBaseInfo.vue'
-import ResumeSkill from './components/ResumeSkill.vue'
+// import ResumeSkill from './components/ResumeSkill.vue'
 import ResumeContact from './components/ResumeContact.vue'
 import ResumeExperience from './components/ResumeExperience.vue'
 import ResumeProject from './components/ResumeProject.vue'
-import ResumeAbout from './components/ResumeAbout.vue'
+import ResumeSkills from './components/ResumeSkills.vue'
 import ResumeLink from './components/ResumeLink.vue'
 import userData from './resume.yaml'
 
@@ -36,11 +36,11 @@ export default {
   components: {
     ResumeHeader,
     ResumeBaseInfo,
-    ResumeSkill,
+    // ResumeSkill,
     ResumeContact,
     ResumeExperience,
     ResumeProject,
-    ResumeAbout,
+    ResumeSkills,
     ResumeLink
   },
   data() {
@@ -54,22 +54,25 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 #app {
   width: 960px;
   margin: 0 auto;  
   background-color: #fff;
   color: #666;
+  >.content {
+    width: 100%;
+    margin-bottom: 40px;
+  }  
 }
 .main {
   display: flex;
+  margin-bottom: 20px;
 }
 .sider-bar {
   width: 280px;
   padding: 120px 15px 16px 45px;
   border-right: 2px solid #ccc;
 }
-.content {
-  width: 100%;
-}
+
 </style>
