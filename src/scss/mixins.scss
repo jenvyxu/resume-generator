@@ -1,0 +1,13 @@
+@mixin list-style($top: 0.8em) {
+  &::before {
+    content: '';
+    position: absolute;
+    left: -12px;
+    top: $top;
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background: #666;
+    margin-right: 10px;
+  }
+}

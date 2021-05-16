@@ -37,6 +37,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import '../scss/mixins.scss';
+
 .resume-experience {
   margin: 30px 40px 0 30px;
 }
@@ -52,12 +54,11 @@ export default {
 
 }
 .resume-experience-section {
+  position: relative;
   margin-bottom: 6px;
   margin: 0 0 8px 20px;
-  list-style-type: square;
-  &::marker {
-    font-size: 12px;
-  }
+  list-style: none;
+  @include list-style($top: 0.6em);
 }
 
 .title {

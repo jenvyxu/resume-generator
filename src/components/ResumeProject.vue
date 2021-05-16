@@ -62,12 +62,8 @@ export default {
 </script>
 
 <style lang="scss">
-@mixin list-style {
-  list-style: square;
-  &::marker {
-    font-size: 12px;
-  }
-}
+@import '../scss/mixins.scss';
+
 .resume-project {
   margin: 30px 40px 30px 30px;
 }
@@ -80,6 +76,12 @@ export default {
 }
 .resume-porject-content {
   margin-left: 20px;
+  >li {
+    position: relative;
+    line-height: 1.4;
+    list-style: none;
+    @include list-style($top: 0.6em);
+  }
 }
 .resume-project-section {
   margin-bottom: 20px;
@@ -87,10 +89,6 @@ export default {
 .resume-project-logo {
   width: 100%;
   margin: 6px 5px;
-}
-.resume-project-description {
-  display: list-item;
-  @include list-style;
 }
 .word {
   font-weight: normal;
@@ -104,7 +102,6 @@ export default {
   }
 }
 .link {
-  @include list-style;
   a {
     margin-right: 10px;
   }
@@ -112,7 +109,6 @@ export default {
 .word-container {
   font-weight: bold;
   margin: 4px 0;
-  @include list-style;
 }
 
 </style>
