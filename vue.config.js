@@ -17,5 +17,10 @@ module.exports = {
       .use('yaml-loader')
         .loader('yaml-loader')
         .end()
+    config.plugin('html')
+      .tap(args => {
+        args[0].title = "简历";
+        return args;
+      })
   }
 }
