@@ -36,26 +36,28 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 .resume-experience {
   margin: 30px 40px 0 30px;
-  .content {
-    margin-left: 16px;
-  }
 }
 
 .resume-experience-title {
   display: flex;
-  color: #333;
-  font-weight: bold;
+  color: #666;
+  font-weight: 600;
   justify-content: space-between;
   .resume-editor {
     margin: 0 40px 0 0;
   }
+
 }
 .resume-experience-section {
   margin-bottom: 6px;
-  margin-left: 12px;
+  margin: 0 0 8px 20px;
+  list-style-type: square;
+  &::marker {
+    font-size: 12px;
+  }
 }
 
 .title {

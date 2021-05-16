@@ -62,18 +62,24 @@ export default {
 </script>
 
 <style lang="scss">
+@mixin list-style {
+  list-style: square;
+  &::marker {
+    font-size: 12px;
+  }
+}
 .resume-project {
   margin: 30px 40px 30px 30px;
 }
 .resume-project-title {
-  color: #333;
+  color: #666;;
   >h2 {
     font-size: 16px;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
   }
 }
 .resume-porject-content {
-  padding-left: 32px;
+  margin-left: 20px;
 }
 .resume-project-section {
   margin-bottom: 20px;
@@ -84,6 +90,7 @@ export default {
 }
 .resume-project-description {
   display: list-item;
+  @include list-style;
 }
 .word {
   font-weight: normal;
@@ -97,6 +104,7 @@ export default {
   }
 }
 .link {
+  @include list-style;
   a {
     margin-right: 10px;
   }
@@ -104,6 +112,7 @@ export default {
 .word-container {
   font-weight: bold;
   margin: 4px 0;
+  @include list-style;
 }
 
 </style>

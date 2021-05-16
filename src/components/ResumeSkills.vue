@@ -32,10 +32,11 @@ export default {
 
 <style scoped lang="scss">
 .resume-about {
-  margin: 30px 40px 30px 30px
+  margin: 30px 40px 30px 30px;
 }
 .resume-about-item {
   margin: 0 0 4px 20px;
+  line-height: 1.4;
   font-size: 12px;
   list-style-type: square;
   vertical-align: middle;

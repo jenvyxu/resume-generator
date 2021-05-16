@@ -37,7 +37,7 @@ contact:
   - name: phone
     value: 18316304477
   - name: wechat
-    value: xuzhenwei111
+    value:  jenvyxu
   - name: email
     value: 1272117264@qq.com
 experience:
@@ -59,7 +59,7 @@ project:
       - element-ui
       - less
     description: 
-      - <<项目描述：>>协作圈使用vue-cli + element-ui搭建项目、使用vue-router实现路由跳转，使用vuex实现组件间数据通信，使用i18n实现中英切换，是使用模块化的思想，把项目划分成几大模块/n
+      - 项目描述：协作圈使用vue-cli + element-ui搭建项目、使用vue-router实现路由跳转，使用vuex实现组件间数据通信，使用i18n实现中英切换，是使用模块化的思想，把项目划分成几大模块/n
         使用axios实现前后端http通信，
     responsibility: 项目使用((vue + element ui))技术栈
     link: 
@@ -71,7 +71,7 @@ project:
       - element-ui
       - less
     description: 
-      - <<项目描述：>>协作圈使用vue-cli + element-ui搭建项目、使用vue-router实现路由跳转，使用vuex实现组件间数据通信，使用i18n实现中英切换，是使用模块化的思想，把项目划分成几大模块/n
+      - 项目描述：协作圈使用vue-cli + element-ui搭建项目、使用vue-router实现路由跳转，使用vuex实现组件间数据通信，使用i18n实现中英切换，是使用模块化的思想，把项目划分成几大模块/n
         使用axios实现前后端http通信，
     responsibility: 项目使用((vue + element ui))技术栈
     link: 
@@ -87,8 +87,8 @@ project:
       - Es6
       - Element
     description: 
-      - <<项目描述：>> 但是不知如何使用这个在线链接，尝试过在main.js中import这个链接，也试过在index.html中以原始的方式
-      - <<主要职责:>> 但是不知如何使用这个在线链接，尝试过在main.js中import这个链接，也试过在index.html中以原始的方式
+      - 项目描述：但是不知如何使用这个在线链接，尝试过在main.js中import这个链接，也试过在index.html中以原始的方式
+      - 主要职责：但是不知如何使用这个在线链接，尝试过在main.js中import这个链接，也试过在index.html中以原始的方式
     responsibility: ((在该))项目中我主要负责通讯录，流程中心，费控门户等前后台页面的开发及优化工作。同时跟进项目上线后的((问题及修复))
     link: 
     repo: 
@@ -100,8 +100,8 @@ project:
       - less
       - webpack
     description: 
-      - <<工作内容:>> 但是不知如何使用这个在线链接，尝试过在main.js中import这个链接，也试过在index.html中以原始的方式
-      - <<主要职责:>> 但是不知如何使用这个在线链接，尝试过在main.js中import这个链接，也试过在index.html中以原始的方式
+      - 项目描述：但是不知如何使用这个在线链接，尝试过在main.js中import这个链接，也试过在index.html中以原始的方式
+      - 主要职责：但是不知如何使用这个在线链接，尝试过在main.js中import这个链接，也试过在index.html中以原始的方式
     responsibility: ((在该))项目中我主要负责通讯录，流程中心，费控门户等前后台页面的开发及优化工作。同时跟进项目上线后的((问题及修复))
     link: https://segmentfault.com/a/1190000022785144
     repo: https://www.npmjs.com/package/yaml-loader
@@ -117,8 +117,8 @@ project:
       - Es6
       - Element
     description: 
-      - <<工作内容:>> 但是不知如何使用这个在线链接，尝试过在main.js中import这个链接，也试过在index.html中以原始的方式
-      - <<主要职责:>> 但是不知如何使用这个在线链接，尝试过在main.js中import这个链接，也试过在index.html中以原始的方式
+      - 项目描述：但是不知如何使用这个在线链接，尝试过在main.js中import这个链接，也试过在index.html中以原始的方式
+      - 主要职责：但是不知如何使用这个在线链接，尝试过在main.js中import这个链接，也试过在index.html中以原始的方式
     responsibility: ((在该))项目中我主要负责通讯录，流程中心，费控门户等前后台页面的开发及优化工作。同时跟进项目上线后的((问题及修复))
     link: https://segmentfault.com/a/1190000022785144
     repo: https://www.npmjs.com/package/yaml-loader

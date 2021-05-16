@@ -10,6 +10,7 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "css-loader": "^3.6.0",
+    "fonts.css": "^2.0.0",
     "sass-loader": "^8.0.2",
     "vue": "^2.6.11"
   },

@@ -32,6 +32,7 @@ export default {
 .title {
   margin-bottom: 12px;
   color: #5c99ca;
+  font-weight: bold;
 }
 .division {
   border-bottom: 2px solid #ccc;
