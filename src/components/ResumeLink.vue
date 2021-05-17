@@ -1,17 +1,15 @@
 <template>
   <ResumeSection
-    :title="'链接'"
+    title="链接"
     class="resume-link">
     <div
       v-for="item in list"
       :key="item.name"
       class="resume-link-item">
       <i :class="['iconfont',`icon-${item.name}`]"></i>
-      <a :href="item.link" class="resume-link-item" target="_blank">{{item.description}}</a>
+      <a :href="item.link" class="resume-link-item" target="_blank">{{item.link}}</a>
     </div>
-
   </ResumeSection>
-  
 </template>
 
 <script>
@@ -27,20 +25,23 @@ export default {
       default: () => []
     }
   }
-
 }
 </script>
 
 <style scoped lang="scss">
 .resume-link-item {
   margin: 0 0 6px 0;
-  vertical-align: top;
+  display: flex;
+  a {
+    word-break: break-all;
+    margin: 0;
+  }
 }
 .iconfont {
   display: inline-block;
   width: 24px;
   font-size: 20px;
-  margin-right: 10px;
+  margin-right: 6px;
 }
 
 </style>

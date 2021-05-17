@@ -25,126 +25,145 @@ baseInfo:
   name: 专业
   value: 通信工程
 # 相关技能
-skills:
-  - ((熟悉))CSS3/HTML5/Grid/Flex
-  - ((熟悉))JavaScript/ES6
-  - ((熟悉))Vue/Vuex/Vue Router/Axios
-  - ((熟悉))移动端开发
-  - ((熟悉))ElementUI
-  - ((熟悉))Webpack配置
-  - ((熟悉))Sass/Less/Babel
+# 已经移除
+# skills:
+  # - ((熟悉))CSS3/HTML5/Grid/Flex
+  # - ((熟悉))JavaScript/ES6
+  # - ((熟悉))Vue/Vuex/Vue Router/Axios
+  # - ((熟悉))移动端开发
+  # - ((熟悉))ElementUI
+  # - ((熟悉))Webpack配置
+  # - ((熟悉))Sass/Less/Babel
 contact: 
   - name: phone
-    value: 18316304477
+    value: '18316304477'
   - name: email
     value: 1272117264@qq.com
   - name: wechat
     value: jenvyxu
+
+# 专业技能
+about:
+- 熟练常用((HTML))元素，可以根据设计稿编写出符合规范的、((语义化))的HTML文档
+- 熟悉CSS3的float、((flex))、((grid))布局技术，熟悉((动画))、((过渡))等常用CSS技术
+- 熟悉原生JavaScript，熟悉并理解((原型))、((闭包))、((作用域链))、面向对象、异步操作、跨域、节流、防抖等技术
+- 熟悉((TypeScript))和((ES6+))语法
+- 熟悉((Vue))、((Vue Router))和((Vuex))技术，理解Vue((响应式原理))和((生命周期))等技术，熟悉Vue项目优化
+- 熟悉((React))、((React Redux))和((React Router))的使用，熟悉React ((Hook))的使用，熟悉React项目优化
+- 熟悉((移动端))开发，熟练使用((rem))、vw和vh等((响应式))技术进行移动端页面开发
+- 熟悉((前端工程化))技术，可以按照项目需求配置((webpack))
+- 熟悉常见的((web性能优化))方案
+- 熟悉CSS预编译语言((Less))、((Sass))的使用
+- 熟悉((浏览器原理))和((HTTP缓存))、状态码等相关知识
+- 有((小程序))开发经验
+- 熟练使用((Git))进行版本管理
+
+# 工作经历
 experience:
-  - company: 天圣网络科技有限公司
+  - company: 广东天圣网络科技有限公司
     time: 2016/08 - 2018/03
     position: 硬件工程师
-    description: 负责产品研发和硬件技术选型
-  - company: 美云智数科技有限公司
+    description: 负责产品硬件研发和产品质量保证
+  - company: 离职
+    time: 2018/03 - 2019/11
+  - company: 广东美云智数科技有限公司
     time: 2019/11 - 2020/05
     position: 前端开发工程师
-    description: 负责公司saas应用的前端开发工作，主要负责协作圈版本功能迭代
+    description: 负责集团Saas应用的前端开发工作，主要负责协作圈产品的前端研发工作
   - company: 离职
-    time: 2019/11 - 2020/05
+    time: 2020/05 - 至今
+# 项目经理
 project: 
-  - name: 协作圈web端
-    logo: shoot1.png
+  - name: 协作圈(公司项目)
     keyword: 
-      - vue
-      - element-ui
-      - less
-    description: 
-      - 项目描述：协作圈使用vue-cli + element-ui搭建项目、使用vue-router实现路由跳转，使用vuex实现组件间数据通信，使用i18n实现中英切换，是使用模块化的思想，把项目划分成几大模块/n
-        使用axios实现前后端http通信，
-    responsibility: 项目使用((vue + element ui))技术栈
-    link: 
-    repo: 
-  - name: 协作圈后台管理系统
-    logo: shoot1.png
-    keyword: 
-      - vue
-      - element-ui
-      - less
-    description: 
-      - 项目描述：协作圈使用vue-cli + element-ui搭建项目、使用vue-router实现路由跳转，使用vuex实现组件间数据通信，使用i18n实现中英切换，是使用模块化的思想，把项目划分成几大模块/n
-        使用axios实现前后端http通信，
-    responsibility: 项目使用((vue + element ui))技术栈
-    link: 
-    repo: 
-  - name: 盈丰移动端资讯
-    logo: shoot2.png
-    keyword: 
-      - vue-cli
-      - element-ui
-      - less
       - Vue
-      - Sass
-      - Es6
-      - Element
+      - Vuex
+      - Vue Router
+      - Element UI
+      - Less
+      - TypeScript
     description: 
-      - 项目描述：但是不知如何使用这个在线链接，尝试过在main.js中import这个链接，也试过在index.html中以原始的方式
-      - 主要职责：但是不知如何使用这个在线链接，尝试过在main.js中import这个链接，也试过在index.html中以原始的方式
-    responsibility: ((在该))项目中我主要负责通讯录，流程中心，费控门户等前后台页面的开发及优化工作。同时跟进项目上线后的((问题及修复))
-    link: 
-    repo: 
-  - name: 在线便签
-    logo: shoot3.png
+      - 项目描述：协作圈是美的集团内部团队使用的一个项目管理应用，应用内提供不同类型的模板供不同的团队使用，提供项目管理、日程管理、数据统计等功能，应用分为PC端和移动端，
+      - 项目使用((Vue))、((Vuex))、((Vue Router))和((Element UI))技术栈，使用((i18n))实现中英文切换
+      - 项目打包部署使用公司自研的Devops平台进行((自动化部署))
+      - 工作内容：负责协作圈web端的业务组件开发和优化工作
+      - 工作成效：推行((TypeScript))的使用，重构协作圈的大部分页面，解决运行不流畅问题，提升用户体验
+    link: https://meixinuat.meicloud.com/h5-saas-coco-portal-web-new-org/?timestamp=1557192730590/#/login
+
+  - name: JEN UI库(开源项目)
+    keyword: 
+      - Vue 3
+      - Scss
+      - TypeScript
+    description: 
+      - 项目描述：JEN UI是一个基于((Vue 3)) + ((TypeScript))的UI库，涵盖了Button、Switch、Dialog等常见UI组件
+      - 使用了setup、onMounted、watchEffect、ref、computed等Compositioin API
+      - 模块化的源代码简洁明了，易于阅读
+      - 提供官方文档，可在线查看示例代码，同时支持PC和手机浏览
+      - 组件库发布到npm官网，支持yarn和npm安装使用
+    link: https://jenvyxu.github.io/jen-ui-website/index.html
+    repo: https://github.com/jenvyxu/jen-ui
+
+  - name: 轻便记账(个人项目)
+    keyword: 
+      - React
+      - React Redux
+      - React Router
+      - TypeScript
+      - Scss
+      - ECharts
+    description: 
+      - 项目描述：项目使用((React)) + ((TypeScript))技术开发，使用((React Router))管理页面路由，使用((React Redux))管理应用的状态，实现记账、统计和标签管理等功能
+      - 使用((ECharts))可视化展示收支统计数据
+      - 使用((Scss))编写页面样式
+      - 使用响应式技术适配不同尺寸的移动设备
+    link: https://jenvyxu.github.io/save-my-money/build/index.html
+    repo: https://github.com/jenvyxu/save-my-money
+
+  - name: 彩色便签(个人项目)
+    keyword: 
+      - Express
+      - Less
+      - Webpack
+      - MVC
+    description: 
+      - 项目描述：使用((Express))搭建的node项目，前端使用Ejs模板引擎 + ((Less))实现，后端使用Express和((Sqlite))处理请求和存储数据
+      - 新增便签自动((瀑布流))排列
+      - 使用Github ((Auth))登录，使用Sqlite保存登录信息
+    repo: https://github.com/jenvyxu/express-sticky-note
+
+  - name: Canvas画板(个人项目)
     time: 
     keyword: 
-      - express
-      - less
-      - webpack
+      - 响应式
+      - Canvas
     description: 
-      - 项目描述：但是不知如何使用这个在线链接，尝试过在main.js中import这个链接，也试过在index.html中以原始的方式
-      - 主要职责：但是不知如何使用这个在线链接，尝试过在main.js中import这个链接，也试过在index.html中以原始的方式
-    responsibility: ((在该))项目中我主要负责通讯录，流程中心，费控门户等前后台页面的开发及优化工作。同时跟进项目上线后的((问题及修复))
-    link: https://segmentfault.com/a/1190000022785144
-    repo: https://www.npmjs.com/package/yaml-loader
-  - name: Canvas画板
-    logo: shoot4.png
+      - 项目描述：使用HTML5 ((Canvas)) API实现的在线画板工具，具有画笔和橡皮檫等功能
+      - 同时支持移动端和PC端
+      - 画布可以保存为图片下载
+    link: https://jenvyxu.github.io/canvas-drawing-board/index.html
+    repo: https://github.com/jenvyxu/canvas-drawing-board
+
+  - name: 微信翻译小程序(个人项目)
     time: 
     keyword: 
-      - javascript
-      - html
-      - webpack
-      - Vue
-      - Sass
-      - Es6
-      - Element
+      - 微信小程序
     description: 
-      - 项目描述：但是不知如何使用这个在线链接，尝试过在main.js中import这个链接，也试过在index.html中以原始的方式
-      - 主要职责：但是不知如何使用这个在线链接，尝试过在main.js中import这个链接，也试过在index.html中以原始的方式
-    responsibility: ((在该))项目中我主要负责通讯录，流程中心，费控门户等前后台页面的开发及优化工作。同时跟进项目上线后的((问题及修复))
-    link: https://segmentfault.com/a/1190000022785144
-    repo: https://www.npmjs.com/package/yaml-loader
-about:
-- ((熟练)) HTML、DIV + CSS 的页面布局，能根据设计图像素级完成页面制作。能根据设计图像素级完成页面制作能根据设计图像素级完成页面制作能根据设计图像素级完成页面制作能根据设计图像素级完成页面制作
-- 熟练使用flex弹性布局，grid网格布局。
-- 熟悉 HTML 5 及语义化， Canvas 动画制作，掌握 CSS 3 动画、过渡效果等常用技术。
-- 熟悉原生 JavaScript和部分ES6，并理解其重要概念如：原型、闭包、作用域链、面对对象、异步操作、跨域、节流、防抖等
-- 会使用 ES6+ 、 TypeScript，熟悉 jQuery 了解其常用 API 及思想。
-- 熟悉小程序开发，并有项目经验。
-- 熟悉 Vue 常用功能，理解如生命周期、组件、虚拟 DOM、数据响应式等概念， 能够使用 Vue 全家桶开发项目，对 React 有一定了解。
-- 熟悉模块化、工程化开发流程，能够配置 Webpack。
-- 有移动端开发经验，会使用REM、vw/ vh、响应式 等技术制作适配手机设备的页面。
-- 了解 HTTP 相关知识，了解常见的 Web 性能优化方案。
-- 熟练使用 VsCode、WebStorm、Sass、Git 等开发工具。
-- 熟悉HTTP协议及浏览器渲染原理
+      - 项目描述：使用((微信小程序技术))和百度翻译API实现的翻译小程序，具有多国语言互译、记录翻译历史等功能，已经发布到线上
+      - 在微信搜索翻译喵即可
+    repo: https://github.com/jenvyxu/translate-cat
+
+# 相关链接
 link:
   - name: github
-    description: 访问Github
-    link: https//:github.comG
-  - name: blog
-    description: 个人博客
-    link: https//:github.com
-  - name: zhihu
-    description: 浏览知乎首页
-    link: https//:github.com
-  - name: juejin
-    description: 浏览掘金首页
-    link: https//:github.com
+    description: Github
+    link: https://github.com/jenvyxu
+  # - name: blog
+  #   description: 博客
+  #   link: https//:github.com
+  # - name: zhihu
+  #   description: 知乎
+  #   link: https//:github.com
+  # - name: juejin
+  #   description: 掘金
+  #   link: https//:github.com

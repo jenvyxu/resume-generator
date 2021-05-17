@@ -19,18 +19,18 @@
           type="li"
           v-html="hightKeyword(content)"
           class="resume-project-description"/>
-        <ResumeInput
-          type="li"
-          v-html="hightKeyword(item.responsibility)"
-          class="resume-project-description"/>
-        <li class="word-container">技术栈:
+        <li class="word-container">关键词:
           <span
             v-for="(word, index) in item.keyword"
             :key="index"
             class="word">{{word}}</span></li>
-        <li class="link" v-if="item.link || item.repo">
-          <a v-if="item.link" :href="item.link" target="_blank">在线预览</a>
-          <a v-if="item.repo" :href="item.repo" target="_blank">项目源码</a>        
+        <li class="link" v-if="item.link">
+          <span>预览：</span>
+          <a v-if="item.link" :href="item.link" target="_blank">{{item.link}}</a>  
+        </li>
+        <li class="link" v-if="item.repo">
+          <span>仓库：</span>
+          <a v-if="item.repo" :href="item.repo" target="_blank">{{item.repo}}</a>        
         </li>
       </ul>
     </div>
@@ -79,6 +79,7 @@ export default {
   >li {
     position: relative;
     line-height: 1.4;
+    width: 100%;
     list-style: none;
     @include list-style($top: 0.6em);
   }

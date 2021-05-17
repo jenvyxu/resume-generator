@@ -55,5 +55,7 @@ export default {
 .keyword {
   color: #ff5700;
   background: #efefef;
+  padding: 0 4px;
+  border-radius: 2px;
 }
 </style>

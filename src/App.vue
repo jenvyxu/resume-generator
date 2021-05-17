@@ -60,14 +60,14 @@ export default {
   margin: 0 auto;  
   background-color: #fff;
   color: #666;
-  >.content {
-    width: 100%;
-    margin-bottom: 40px;
-  }  
 }
 .main {
   display: flex;
   margin-bottom: 20px;
+  >.content {
+    width: 100%;
+    margin-bottom: 40px;
+  }
 }
 .sider-bar {
   width: 280px;
